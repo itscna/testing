@@ -1,0 +1,109 @@
+html{
+	background:#34495E;
+}
+
+h1{
+	font-size:18px;
+	background:#3498DB;
+	color:#fff;
+	padding:5px 15px;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:#2980B9;
+}
+a:hover{
+	color:#3498DB;
+}
+.info{
+	background:#2980B9;
+	text-align:right;
+	padding:5px 20px;
+}
+.info a{
+	color:#fff;
+	font-size:16px;
+	border-bottom:1px dotted #fff;
+}
+.sidebar{
+	float:left;
+	width:300px;
+}
+.cats{
+	list-style:none;
+	padding:0;
+}
+.cats li a{
+	display:block;
+	padding:8px 16px;
+	font-size:17px;
+	border-bottom:1px solid #ddd;
+}
+.cats li a:hover{
+	background:#efefef;
+}
+.main{
+	float:right;
+	width:700px;
+	background:#fff;
+}
+.books{
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	margin:5px;
+}
+.books li{
+	float:left;
+	width:200px;
+	text-align:center;
+	height:250px;
+	margin:10px;
+}
+.books li b{
+	display:block;
+	margin-top:10px;
+	font-size:16px;
+	font-weight:normal;
+}
+.books li i{
+	color:#E74C3C;
+}
+.footer{
+	clear:both;
+	text-align:center;
+	background:#95A5A6;
+	color:#fff;
+	font-size:14px;
+	padding:10px 20px;
+}
+a.add-to-cart{
+	display:block;
+	text-align:center;
+	background:#1ABC9C;
+	color:#fff;
+	padding:5px 0;
+	margin:5px 30px;
+}
+.wrapper{
+	display:flex
+}
+.detail{
+	margin:30px auto;
+	width:600px;
+}
+#back{
+	margin-bottom:5px;
+}
+span{
+	line-height:1.5em;
+	font-size:16px;
+}
+.msg{
+	background:#1ABC9C;
+	text-align:center;
+	padding:10px;
+	color:#fff;
+	margin:50px 20px;
+}
