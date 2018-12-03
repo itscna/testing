@@ -52,7 +52,7 @@ a:hover{
 	list-style:none;
 	padding:0;
 	overflow:hidden;
-	margin:5px;
+	margin:10px;
 }
 .books li{
 	float:left;
@@ -88,6 +88,7 @@ a.add-to-cart{
 }
 .wrapper{
 	display:flex
+	flex-flow:row nowrap;
 }
 .detail{
 	margin:30px auto;

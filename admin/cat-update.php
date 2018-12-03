@@ -10,4 +10,6 @@ $sql="UPDATE categories SET name='$name',remark='$remark',modified_date=now() WH
 
 mysqli_query($conn,$sql);
 
-header("location:cat-list.php");
+ header("location:cat-list.php");
+
+ 
