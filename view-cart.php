@@ -2,8 +2,8 @@
 	session_start();
 	if(!isset($_SESSION['cart'])){
 		header("location:index.php");
-		exit();	
-	} 
+		exit();
+	}
 
 	require("admin/confs/config.php");
  ?>
@@ -37,7 +37,7 @@
 					foreach($_SESSION['cart'] as $id=>$qty):
 					$result=mysqli_query($conn,"SELECT title,price FROM books WHERE id=$id");
 					$row=mysqli_fetch_assoc($result);
-					$total+=$row['price']*$qty; 
+					$total+=$row['price']*$qty;
 				 ?>
 				 <tr>
 				 	<td><?php echo $row['title'] ?></td>
@@ -52,10 +52,10 @@
 				</tr>
 			</table>
 			<h5>Order Now</h5><hr>
-			<form action="submit-order.php" method="post"> 
+			<form action="submit-order.php" method="post">
 				<div class="form-group">
 					<label for="name">Name</label>
-					<input type="text" name="name" class="form-control" id="name">
+					<input type="text" name="nvame" class="form-control" id="name">
 				</div>
 				<div class="form-group">
 					<label for="email">Email</label>
